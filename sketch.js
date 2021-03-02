@@ -125,6 +125,8 @@ function draw() {
   image(img,ball.position.x,ball.position.y,40,40);
 
   sling.display();
+	text("Drag the hexagonal and realse it toward the launch it towards blocks",300,30);
+  textSize(30);
 }
 
 
